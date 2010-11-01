@@ -2,7 +2,7 @@
 Display Rotation for the Mac: fb-rotate
 =======================================
 
-A Unix utility able to rotate the display on any Mac, including the internal display on Apple notebooks, and able to switch the primary display, the one with the menu bar, back and forth between displays.
+A Unix utility able to rotate the display on any Mac, including the internal display on Apple notebooks.
 
 
 Compiling fb-rotate

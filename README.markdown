@@ -19,9 +19,9 @@ Usage
 -----
 The use is straightforward. The orientation of the display is rotated to match the users orientation of the notebook. There are, however, a few refinements: 
 
-1) Turn the notebook over with display/base facing down for a count of two, and the app pauses --- effectively freezing the display in its present orientation.
-2) Turn the notebook over again for a count of two to reactivate the app --- allowing the display to rotate in response to tilting the notebook again.
-3) Turn the notebook over for a count of five to quit the app entirely. Clicking on the dock icon and selecting Quit from The MacFlip menu will also quit the app. 
+- 1) Turn the notebook over with display/base facing down for a count of two, and the app pauses --- effectively freezing the display in its present orientation.
+- 2) Turn the notebook over again for a count of two to reactivate the app --- allowing the display to rotate in response to tilting the notebook again.
+- 3) Turn the notebook over for a count of five to quit the app entirely. Clicking on the dock icon and selecting Quit from The MacFlip menu will also quit the app. 
 
 In addition, to make it more convenient to pause and restart MacFlip, the download now includes a Scripts folder containing "ToggleMacFlip.scpt", which toggles MacFlip between the paused and active state. It only works when MacFlip is running. If you are using Snow Leopard, you could use Automator to put this script in the Services Menu and attach a keyboard shortcut to it (see http://modbookish.ning.com/profiles/blogs/tutorial-creating-your-own). Alternatively, you could use Quicksilver, Butler or Launchbar to attach it to an Abracadabra gesture, keystroke, or menu item(see http://modbookish.ning.com/profiles/blogs/pen-gestures-on-the-modbook). Note that this script only works with versions of MacFlip updated on or after March 15, 2010.
 
@@ -44,7 +44,7 @@ The MacFlip script was written by Eric Nitardy (©2010). It is available for dow
 The script uses the Unix utility smsutil and library smslib written by Daniel Griscom (©2007-2010). Please read the accompanying `smsutilCREDITS.txt` and `smsutilLICENSE.txt` file in the Resources folder for more information or visit his web site at [http://www.suitable.com][suitable]
 
 The original code for fb-rotate comes from a programming example in
-the book **Mac OS X Internals: A Systems Approach** by Amit Singh (© 2006). Usage info can be found in the `fb-rotateREADME.txt` file. The source is made available under the GNU General Public License (GPL). For more information, see the book's associated web site: [http://osxbook.com][osxbook]. Changes in the [code][fb-rotate rotate only] were made by [Eric Nitardy][ericn] (© 2010) and have to be made available under the same license. 
+the book **Mac OS X Internals: A Systems Approach** by Amit Singh (© 2006). Usage info can be found in the `fb-rotateREADME.markdown` file. The source is made available under the GNU General Public License (GPL). For more information, see the book's associated web site: [http://osxbook.com][osxbook]. Changes in the [code][fb-rotate rotate only] were made by [Eric Nitardy][ericn] (© 2010) and have to be made available under the same license. 
 
 
 
