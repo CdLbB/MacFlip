@@ -13,15 +13,15 @@ An Apple MacBook or Axiotron Modbook running either Leopard or Snow Leopard. (Te
 
 Installation
 ------------
-After pulling or downloading the branch from GitHub, running the  AppleScript `AScompile.scpt` will compile the `MacFlip.scpt`, its associated utilities, and arrange any other needed resources into a working applet: `MacFlip.app`.
+After pulling or downloading the branch from GitHub, running the AppleScript `AScompile.scpt` will compile the `MacFlip.scpt`, its associated utilities, and arrange any other needed resources into a working applet: `MacFlip.app`.
 
 Usage
 -----
 The use is straightforward. The orientation of the display is rotated to match the users orientation of the notebook. There are, however, a few refinements: 
 
-- 1) Turn the notebook over with display/base facing down for a count of two, and the app pauses --- effectively freezing the display in its present orientation.
-- 2) Turn the notebook over again for a count of two to reactivate the app --- allowing the display to rotate in response to tilting the notebook again.
-- 3) Turn the notebook over for a count of five to quit the app entirely. Clicking on the dock icon and selecting Quit from The MacFlip menu will also quit the app. 
+- Turn the notebook over with display/base facing down for a count of two, and the app pauses --- effectively freezing the display in its present orientation.
+- Turn the notebook over again for a count of two to reactivate the app --- allowing the display to rotate in response to tilting the notebook again.
+- Turn the notebook over for a count of five to quit the app entirely. Clicking on the dock icon and selecting Quit from The MacFlip menu will also quit the app. 
 
 In addition, to make it more convenient to pause and restart MacFlip, the download now includes a Scripts folder containing "ToggleMacFlip.scpt", which toggles MacFlip between the paused and active state. It only works when MacFlip is running. If you are using Snow Leopard, you could use Automator to put this script in the Services Menu and attach a keyboard shortcut to it (see http://modbookish.ning.com/profiles/blogs/tutorial-creating-your-own). Alternatively, you could use Quicksilver, Butler or Launchbar to attach it to an Abracadabra gesture, keystroke, or menu item(see http://modbookish.ning.com/profiles/blogs/pen-gestures-on-the-modbook). Note that this script only works with versions of MacFlip updated on or after March 15, 2010.
 
@@ -31,15 +31,17 @@ As the app has no way to be certain of whether it is running on a MacBook or a M
 
 When I use MacFlip with a MacBook, I prefer to leave it in the "modbook" mode since that mode allows me to easily adjust my display orientation by briefly tilting the notebook base in the appropriate direction.
 
+(Note that MacFlip will not work in the eleven or thirteen inch MacBook Airs of October 2010 since neither notebook has a sudden motion sensor.)
+
 Calibration of the Sudden Motion Sensor
 ---------------------------------------
-In order to calculate the orientation of your notebook MacFlip uses data from your notebook's sudden motion sensor (SMS). Not-uncommonly, a notebook's  SMS is poorly calibrated, that is, has an unconventional notion of which way is down. This, of course, can affect the functioning of this MacFlip. If you feel that MacFlip is rotating the display at inappropriate orientations, consider calibrating your notebook's SMS. Daniel Griscom's free application, SeisMaCalibrate, makes calibrating your SMS a simple, five minute process. SeisMaCalibrate is available at:
+In order to calculate the orientation of your notebook MacFlip uses data from your notebook's sudden motion sensor (SMS). Not-uncommonly, a notebook's  SMS is poorly calibrated, that is, has an unconventional notion of which way is down. This, of course, can affect the functioning of MacFlip. If you feel that MacFlip is rotating the display at inappropriate orientations, consider calibrating your notebook's SMS. Daniel Griscom's free application, SeisMaCalibrate, makes calibrating your SMS a simple, five minute process. SeisMaCalibrate is available at:
 
 [http://www.suitable.com/tools/seismacalibrate.html][seismacalibrate]
 
 Credits and Licenses
 --------------------
-The MacFlip script was written by Eric Nitardy (©2010). It is available for download from [Modbookish][] and may be modified and redistributed in accordance with the `License.txt` file.
+The MacFlip script was written by [Eric Nitardy][ericn] (©2010). It is available for download from [Modbookish][] and may be modified and redistributed in accordance with the `License.txt` file.
 
 The script uses the Unix utility smsutil and library smslib written by Daniel Griscom (©2007-2010). Please read the accompanying `smsutilCREDITS.txt` and `smsutilLICENSE.txt` file in the Resources folder for more information or visit his web site at [http://www.suitable.com][suitable]
 
